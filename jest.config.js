@@ -7,7 +7,7 @@ module.exports = {
 
   // Stop running tests after `n` failures
   // bail: 0,
-  bail:5
+  bail:5,
 
   // Respect "browser" field in package.json when resolving modules
   // browser: false,
@@ -93,7 +93,7 @@ module.exports = {
 
   // A preset that is used as a base for Jest's configuration
   // preset: null,
-  preset='jest-puppeteer'
+  preset:'jest-puppeteer',
 
   // Run tests from one or more projects
   // projects: null,
